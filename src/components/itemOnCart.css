@@ -1,0 +1,25 @@
+.item-on-cart {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px 15px;
+
+}
+
+.item-on-cart img {
+    flex: 1;
+    height: 120px;
+}
+
+.item-on-cart .item-info {
+    flex: 4;
+}
+
+.item-on-cart label {
+    flex: 2;
+    font-size: 16px;
+}

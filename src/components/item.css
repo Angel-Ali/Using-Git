@@ -1,0 +1,59 @@
+.item{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.item img{   
+    margin: 0;  
+    width: 230px;
+    border-radius: 5px;
+  
+}
+
+@media (max-width: 414px) {
+    .item{
+        width: 90%;
+        padding: 5px 5px;
+    }
+
+    .item img {
+        width: 100%;
+    }
+}
+
+.item:hover {
+    border: 1px solid hotpink;
+}
+
+.item h5{
+    margin-top: 5px;
+}
+
+.item .item-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 38px 0 38px;
+   
+  
+}
+
+
+/* price and total numbers on the meat */
+
+.item .total {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: rgb(150, 150, 150);
+}
+
+
+.item .price {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
