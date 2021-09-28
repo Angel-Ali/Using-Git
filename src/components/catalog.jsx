@@ -48,7 +48,7 @@ const handleFilterReset = () => {
   useEffect( () => {
     retrieveCatalog();
 
-  }, []); //[]added to ensure logic will be called only once
+  }, []); //[]added to ensure logic will be called only oncehhhdhdfhdfhfdfhh
 
 
   //return things
